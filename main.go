@@ -27,6 +27,7 @@ import (
 	container "google.golang.org/api/container/v1"
 	"gopkg.in/ini.v1"
 	"k8s.io/client-go/kubernetes"
+	_ "k8s.io/client-go/plugin/pkg/client/auth"
 	metricsv "k8s.io/metrics/pkg/client/clientset/versioned"
 )
 
